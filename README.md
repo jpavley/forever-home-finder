@@ -7,7 +7,7 @@ Open source software for uniting shelter animals with forever homes. The vision 
 of Facebook, OKCupid, and P2P networking only for pets in want of home or families in want of
 a pet. 
 
-Node, Express, Stylus, MongoDB is the plan
+Node, Express, Stylus, MongoDB, jquery is the plan
 
 Usage
 ---
@@ -15,7 +15,7 @@ Not yet, but later when there are actual features, download or fork this project
 on a server. Instances of FHF will find each other and collaborate, creating a global network
 of shelter animals, organizations, and pet guardians. It will be that easy.
 
-Copyright and License
+Copyright and License 
 ---
 MIT, see the readme file.
 
