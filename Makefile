@@ -1,4 +1,4 @@
-REPORTER = list
+REPORTER = nyan
 MOCHA_OPTS = --ui bdd -c
 
 test:
