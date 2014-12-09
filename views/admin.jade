@@ -1,0 +1,28 @@
+extends layout
+
+block page
+	- var menu = 'admin'
+
+block content
+	div.admin
+		if (profiles.lenght === 0)
+			p 
+				| Nothing to display. Add a new
+				a(href='/post') profile
+				| .
+		else
+
+			table.table.table-stripped
+				thead
+					tr
+						th(colspan='2') Action
+						th Profile Title
+				tbody
+					each profile, index in profiles
+						tr(data-id='#{profile._id}', class=(!profile.published)?'unpublished':'')
+							td.action
+								button.btn.btn-danger.btn-sm.remove(type='button')
+									span.glypicon.glypicon-remove(title='Remove')
+							td.action
+								button.btn.btn-default.btn-sm.publish(type='button')
+									span.glypicon.glypicon-remove(title='Remove')
