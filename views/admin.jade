@@ -25,4 +25,7 @@ block content
 									span.glypicon.glypicon-remove(title='Remove')
 							td.action
 								button.btn.btn-default.btn-sm.publish(type='button')
-									span.glypicon.glypicon-remove(title='Remove')
+									span.glypicon(class=(profile.published)?'glyphicon-pause':'glyphicon-play', title=(profile.published)?'Unpublished':'Published')
+							td= profile.tile
+
+		script (type='text/javascript', src='js/admin.js')
