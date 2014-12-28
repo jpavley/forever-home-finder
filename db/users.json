@@ -1,0 +1,16 @@
+// array of json objects to use as seed data for the user collection 
+// of the fhf database
+[
+	{
+		"email": "admin@fhf.com",
+		"admin": true,
+		"password": "password"
+
+	},
+	{
+		"email": "demo@fhf.com",
+		"admin": false,
+		"password": "password"
+
+	}
+]

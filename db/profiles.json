@@ -1,0 +1,28 @@
+// array of json objects to use as seed data for the profiles collection 
+// of the fhf database
+[
+	{
+		"title": "Ziggy The Cat",
+		"slug": "cat-ziggy",
+		"published": true,
+		"text": "Ziggy is a male black and white tux cat with white paws. Ziggy is curious and fearless and social. Ziggy likes people and felines equally. Ziggy can be demanding and will meow loudly for what he wants. Ziggy loves to play-fight and run around the house but he usually keeps it safe. Ziggy loves to crawl inside boxes and roll around on shoes and backpacks."
+	},
+	{
+		"title": "Angel The Cat",
+		"slug": "cat-angel",
+		"published": true,
+		"text": "Angel is a male brown, gray, and white tabby cat with white paws. Angel is afectionate but nervous. Angel prefers people to felines, although Ziggy is his best friend. Angek  doen't like large groups of people and hides during parties. Angel is generally quiet and passive but will ask for help by scratching at an object. Angel loves to play-fight and run around the house but he can get over excited. Angel loves to drink water from bathroom sinks and sleep in hidden nooks."
+	},
+	{
+		"title": "Mazie The Cat",
+		"slug": "cat-mazie",
+		"published": false,
+		"text": "TBD"
+	},
+	{
+		"title": "Punky The Cat",
+		"slug": "cat-punky",
+		"published": false,
+		"text": "TBD"
+	}
+]
