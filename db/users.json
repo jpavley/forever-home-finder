@@ -1,5 +1,3 @@
-// array of json objects to use as seed data for the user collection 
-// of the fhf database
 [
 	{
 		"email": "admin@fhf.com",
